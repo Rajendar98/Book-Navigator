@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Book Navigator"
+        android:textSize="40dp"
+        android:textColor="#151B54"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp"
+        android:letterSpacing="0.03"
+        android:text="Sign up to continue"
+        android:textAlignment="center"
+        android:textColor="#151B54"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="Register"
+        android:textColor="#151b54"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="35dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Email"
+        android:textSize="18dp"
+        android:textColor="#151B54"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="35dp"
+        android:minHeight="48dp"
+        android:text="Enter the Email" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Password"
+        android:textSize="18dp"
+        android:textColor="#151B54"
+        android:textStyle="bold"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="35dp"
+        android:minHeight="48dp"
+        android:text="Enter the password" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Confirm password"
+        android:textSize="18dp"
+        android:textColor="#151B54"
+        android:textStyle="bold"
+        android:layout_marginTop="405dp"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="435dp"
+        android:layout_marginRight="35dp"
+        android:minHeight="48dp"
+        android:text="Confirm the password" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you have account ? Sign in"
+        android:textStyle="bold"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="120dp"
+        android:textColor="#151B54"/>
+
+</RelativeLayout>

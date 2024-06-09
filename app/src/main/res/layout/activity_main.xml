@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bkauthor_et"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/bkid_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book id"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/bkname_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book name"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bkauthor_et"
+        app:layout_constraintTop_toBottomOf="@+id/bkid_et"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <EditText
+        android:id="@+id/bkauthor_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:hint="Book author"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@+id/bkid_et"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/bkfloor_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Floor No"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/bkrack_et"
+        app:layout_constraintTop_toBottomOf="@+id/bkauthor_et"
+        app:layout_constraintVertical_bias="0.312"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/bkrack_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rack"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/bksubrack_et"
+        app:layout_constraintTop_toBottomOf="@+id/bkauthor_et"
+        app:layout_constraintVertical_bias="0.871"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/bksubrack_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="124dp"
+        android:hint="sub rack"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name here..."
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_name"/>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:id="@+id/bt_ok"
+        android:text="OK"
+        android:textSize="18dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/et_name"/>
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:id="@+id/bt_cancel"
+        android:layout_marginTop="10dp"
+        android:text="Cancel"
+        android:textSize="18dp"
+        android:layout_toRightOf="@+id/bt_ok"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/et_name"/>
+
+</RelativeLayout>
